@@ -1,0 +1,135 @@
+
+textarea {
+  background-color: #ff0000;
+  color: #ffffff;
+ resize: disabled;
+}
+
+textarea:focus {
+    border-color: #ff2244;
+    background-color: #ffffff;
+    color: #000000;
+
+}
+
+
+form[type=submit] {
+          background-color: #000000;
+        color: #ffffff;
+  border: none;
+  border-right: 4px solid #ff0000;
+}
+
+input[type=text] {
+          background-color: #000000;
+        color: #ffffff;
+  border: none;
+}
+
+@media screen and (max-width: 992px) {
+  body {
+    width: 50%;
+  }
+}
+
+
+body {
+    background: rgb(255,255,255);
+    height: auto;    
+    width: auto;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 1em;
+    padding: 0% 15% 15% 15%;
+
+}
+
+p {    
+    font-size: 2em;
+    margin: 0 0 1em 0;
+}
+h1 {
+    font-size: 6em;
+     line-height: 0;
+}
+.logo 
+    {width:100%;   
+    }
+h2 {
+    font-size: 4em;
+}
+h3 {
+    font-size: 2em;
+}
+
+.nav {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 2em;
+  background: rgb(255,255,255);
+  border-radius: 0ex;
+  padding:0px;
+  text-align: center;
+  object-position: center;
+}
+
+a:link, a:visited{
+   text-shadow: 2px 2px 4px #666666;
+   color: white;
+   padding: 14px 25px;
+   text-decoration: none;
+   display: inline-block;
+   border:0;
+   border-radius: 4px;
+}
+ a:hover{
+  text-shadow: 2px 2px 4px #333333;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+  body {    padding: 0% 0% 0% 0%;
+    width: 50%;
+        font-size: .5em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+  height: auto;
+  width: auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  background: rgb(0,0,0);
+  border-radius: 0;
+  padding: 0;
+object-position: center;
+  }
+    a:link, a:visited{
+   text-shadow: 2px 2px 4px #666666;
+   color: white;
+   padding: 0px 0px;
+   text-decoration: none;
+   display: inline;
+   border:0;
+   border-radius: 1px;
+}
+    
+
+.logo 
+    {width:300px;   
+    object-position: center; }
+
+p {    
+    font-size: 1.25em;
+    margin: 0 0 1em 0;
+}
+h1 {
+    font-size: 2.75em;
+     line-height: 0;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 2em;
+}
+}

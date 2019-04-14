@@ -1,0 +1,85 @@
+<!doctype html>
+
+<html lang="en">
+    <head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <title>Vladimir Poutine: Merch</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    </head>
+    
+        <body>
+    
+        <div class="nav">
+            <a href="index.html">News</a>        
+            <a href="bio.html">Biography</a>
+            <a href="music.html">Music</a>  
+            <a href="merch.html">Merch</a>   
+            <a href="contact.html">Contact</a>   
+        </div>
+                        
+            <img class="logo" src="images/newlogo.png" alt="logo">
+     
+    <h3>Merchandise</h3>
+
+    
+<div>     
+   Shirt 1<br>
+    <img class="logo" src="images/shirt.jpg" alt="shirt design"> 
+        
+<form action="mailto:cmurray21@student.clayton.edu" onsubmit="return getOrder()"> 
+        <br>All sizes $15.<br>
+        <br>Select your size:
+        <select name="Sizes">
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>   
+        <option value="Large" selected>Large</option>
+        <option value="XLarge">Extra Large</option>
+        <option value="XXL">XXL</option>
+        </select>
+<br><br><br>  <script src="js/script.js"></script> 
+  First name:<br>
+  <input type="text" name="firstname" value="Bob"><br>
+  Last name:<br>
+  <input type="text" name="lastname" value="Boberson"><br>
+   Address:<br>
+  <input type="text" name="address" value="123 Main St."><br>
+  City:<br>
+  <input type="text" name="city" value="Atlanta"><br>
+  State:<br>
+  <input type="text" name="state" value="Georgia"><br>
+  Zip:<br>
+  <input type="text" name="state" value="12345"><br>
+
+
+   <br>Choose shipping:<br> 
+            
+            <input type="radio" id="free" name="ShippingType" value="free" checked> 
+    <label for="free">Free Shipping (7-10 Business Days)</label><br>
+
+            <input type="radio" id="2day" name="ShippingType" value="2day">
+     <label for="2day"> $5 Expedited (3-5 Business Days) </label><br>
+
+    <input type="radio" id="overnight" name="ShippingType" value="overnight">
+       <label for="overnight">$25 Overnight (Arrives by 12pm next business day)   </label>        
+        <br><br>
+<input name ="submit" type="submit" value="submit" onclick="getOrder()">
+      
+       
+     </form>    
+</div>
+
+<div>
+    <h4>Have an idea for a custom shirt? Tell us more below. </h4>
+    
+    <form action="mailto:cmurray21@student.clayton.edu">
+    <textarea cols="40" rows="5">Enter your message here.</textarea>
+    <br>
+        <input type="submit" value="Send E-Mail">
+    </form>
+        </div>
+              
+              
+        </body>
+</html>
